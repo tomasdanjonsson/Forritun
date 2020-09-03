@@ -10,4 +10,5 @@ for i in range(1, n + 1):
     else:
         sequence = one + two + three
         one, two, three = two, three, sequence
-print(sequence)
+    
+    print(sequence)
